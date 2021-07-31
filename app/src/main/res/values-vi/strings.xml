@@ -1,0 +1,142 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="preference_resolution_title">Độ phân giải</string>
+    <string name="preference_fps_title">Khung hình mỗi giây</string>
+    <string name="preference_bit_title">Bit rate</string>
+    <string name="preference_audio_record_title">Âm thanh</string>
+    <string name="preference_save_location_title">Vị trí lưu</string>
+    <string name="res_key" translatable="false">resolution</string>
+    <string name="fps_key" translatable="false">fps</string>
+    <string name="bitrate_key" translatable="false">bitrate</string>
+    <string name="audiorec_key" translatable="false">audiorecloc</string>
+    <string name="savelocation_key" translatable="false">savelocation</string>
+    <string name="filename_key" translatable="false">filename</string>
+    <string name="preference_filename_format_title">Định dạng tên file</string>
+    <string name="fileprefix_key" translatable="false">fileprefix</string>
+    <string name="language_key" translatable="false">language</string>
+    <string name="timer_key" translatable="false">timer</string>
+    <string name="preference_filename_prefix_title">File name prefix</string>
+    <string name="storage_permission_request_title">Cho phép quyền lưu file</string>
+    <string name="storage_permission_request_summary">Write permission to storage is required to save the recorded video.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Đóng</string>
+    <string name="screen_recording_permission_denied">Quyền bị từ chối</string>
+    <string name="screen_recording_notification_title">Screen recording</string>
+    <string name="screen_recording_notification_action_pause">Tạm dừng</string>
+    <string name="fatal_exception_message">ScreenRecorder: Fatal Exception occurred. Log has been sent</string>
+    <string name="recording_failed_toast">Screen recording failed.</string>
+    <string name="screenrecording_already_active_toast">Screen recording session already active</string>
+    <string name="app_shortcut_action" translatable="false">com.test.screenrecord.RECORD</string>
+    <string name="screen_recording_started_toast">Bắt đầu ghi</string>
+    <string name="screen_recording_stopped_toast">Dừng ghi</string>
+    <string name="screen_recording_resumed_toast">Tiếp tục ghi</string>
+    <string name="screen_recording_paused_toast">Tạm dừng ghi</string>
+    <string name="share_intent_notification_title">Chia sẻ video</string>
+    <string name="share_intent_notification_title_photo">Chia sẻ ảnh</string>
+    <string name="share_intent_notification_content">click to open the recorded videos</string>
+    <string name="share_intent_notification_content_photo">click to open the screenshot</string>
+    <string name="preference_floating_control_title">Hiển thị biểu tượng nổi</string>
+    <string name="preference_floating_control_summary">Bật/tắt biểu tượng nổi trên màn hình</string>
+    <string name="preference_floating_control_key" translatable="false">floating_controls</string>
+    <string name="video_list_permission_denied_message">Quyền bị từ chối</string>
+    <string name="video_list_no_video_message">Chưa có videos</string>
+    <string name="photo_list_no_photo_message">Chưa có ảnh</string>
+    <string name="alert_title_create_folder">Thư mục mới</string>
+    <string name="alert_message_create_folder">Nhập tên thư mục</string>
+    <string name="prefs_category_video_settings_title">Cài đặt video</string>
+    <string name="prefs_category_audio_settings_title">Cài đặt âm thanh</string>
+    <string name="prefs_category_save_options_title">Tùy chọn lưu</string>
+    <string name="prefs_category_recording_settings_title">Cài đặt quay màn hình</string>
+    <string name="preference_show_touch_title">Hiệu ứng chạm</string>
+    <string name="preference_show_touch_summary">Bật/tắt hiển thị hiệu ứng chạm</string>
+    <string name="preference_show_touch_key" translatable="false">touch_pointer</string>
+    <string name="alert_permission_denied_title">Quyền bị từ chối</string>
+    <string name="alert_permission_denied_message">The app requires storage permission to save the recorded video and change default save directory.The app is rendered useless without the permission\n\nDo you want to grant it now?</string>
+    <string name="storage_selection_spinner_title">Chọn lưu trữ</string>
+    <string name="external_storage_dir_not_writable">The directory is not writable</string>
+    <string name="alert_external_storage_warn_cb_text">Do not show again</string>
+    <string name="alert_ext_dir_warning_title">Warning</string>
+    <string name="alert_ext_dir_warning_message">Saving to external directory may not work on all phones. Proceed with caution.</string>
+    <string name="prefs_category_experimental_title">Nâng cao</string>
+    <string name="preference_save_gif_title">Bật lưu định dạng GIF</string>
+    <string name="preference_save_gif_summary">Bật lưu video thành định dạng hiệu ứng GIF</string>
+    <string name="preference_save_gif_key" translatable="false">save_gif</string>
+    <string name="preference_shake_gesture_title">Lắc để bật/dừng quay màn hình</string>
+    <string name="preference_shake_gesture_summary">Lắc điện thoại để bật/dừng quay màn hình</string>
+    <string name="preference_shake_gesture_key" translatable="false">shake_gesture</string>
+    <string name="preference_vibrate_key" translatable="false">vibrate</string>
+    <string name="screenrecording_waiting_for_gesture_toast">Shake your device to start recording when ready</string>
+    <string name="preference_enable_target_app_title">Enable target app</string>
+    <string name="preference_enable_target_app_summary">Open target app before recording</string>
+    <string name="preference_enable_target_app_key" translatable="false">enable_app_target</string>
+    <string name="preference_app_chooser_title">Chọn ứng dụng</string>
+    <string name="preference_app_chooser_summary">Chọn ứng dụng để bắt đầu khi quay màn hình</string>
+    <string name="preference_app_chooser_key" translatable="false">app_chosen</string>
+    <string name="video_not_found">Không tìm thấy!</string>
+    <string name="menu_delete">xóa</string>
+    <string name="menu_select_all">select all</string>
+    <string name="menu_share">Chia sẻ</string>
+    <string name="quick_settings_tile_start_title">Bắt đầu ghi</string>
+    <string name="quick_settings_tile_stop_title">Dừng ghi</string>
+    <string name="orientation_key" translatable="false">orientation</string>
+    <string name="preference_orientation_title">Hướng màn hình</string>
+    <string name="preference_camera_overlay_title">Hiển thị camera trên màn hình</string>
+    <string name="preference_camera_overlay_summary">Bật/tắt hiển thị camera trên màn hình. Bạn có thể chuyển đổi giữa camera trước và sau</string>
+    <string name="preference_camera_overlay_key" translatable="false">camera_overlay</string>
+    <string name="alert_dialog_internal_audio_warning_title">Warning</string>
+    <string name="alert_dialog_internal_audio_warning_message">Internal audio recording usually records along with mic audio.\nAlso, it does not work on all phones (Confirmed working on OnePlus, Xiaomi, and few Moto phones). You might try your luck</string>
+    <string name="alert_dialog_r_submix_audio_warning_message">Recording internal audio using submix will require you to install the magisk systemizer module which is in closed beta now. Join the support group to download the module.\nNote: This will force close the app if the module is not installed.</string>
+    <string name="alert_dialog_internal_audio_warning_negative_btn_text">Do not show this message again</string>
+    <string name="str_permission_remind">Xin vui lòng cấp quyền để ứng dụng hoạt động bình thường</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="nav_gallery">Thư viện ảnh</string>
+    <string name="nav_policy">Chính sách</string>
+    <string name="nav_share">Chia sẻ</string>
+    <string name="nav_more">Xem thêm ứng dụng</string>
+    <string name="nav_video">Videos</string>
+    <string name="preference_language_title">Ngôn ngữ</string>
+    <string name="prefs_category_language_title">Ngôn ngữ</string>
+    <string name="preference_timer_title">Đếm ngược</string>
+    <string name="recording_finished">Hoàn tất</string>
+    <string name="screenshot_finished">Hoàn tất</string>
+    <string name="preference_vibrate_summary">Bật/tắt hiệu ứng rung khi chạm</string>
+    <string name="preference_vibrate_title">Rung</string>
+    <string name="dialog_title_delete_old_file">Delete old file?</string>
+    <string name="guide_activity_usage_stats_page_text2">Please permit usage access</string>
+    <string name="applock_permission_guide_reminder">You need to grant Usage Access permission to enable this feature</string>
+    <plurals name="delete_alert_title">
+        <item quantity="zero">Xóa video?</item>
+        <item quantity="one">Xóa video?</item>
+        <item quantity="other">Xóa videos?</item>
+    </plurals>
+    <plurals name="delete_photo_alert_title">
+        <item quantity="zero">Xóa ảnh?</item>
+        <item quantity="one">Xóa ảnh?</item>
+        <item quantity="other">Xóa ảnh?</item>
+    </plurals>
+    <plurals name="delete_alert_message">
+        <item quantity="zero">Bạn có muốn xóa video?</item>
+        <item quantity="one">Bạn có muốn xóa video?</item>
+        <item quantity="other">Bạn có muốn xóa videos?</item>
+    </plurals>
+    <plurals name="delete_photo_alert_message">
+        <item quantity="zero">Bạn có muốn xóa ảnh?</item>
+        <item quantity="one">Bạn có muốn xóa ảnh?</item>
+        <item quantity="other">Bạn có muốn xóa ảnh?</item>
+    </plurals>
+
+    <string name="save">Lưu</string>
+    <string name="short_seconds">sec</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+
+    <string name="file_delete_successfuly">File deleted successfully</string>
+    <string name="dir_exist">Thư mục đã tồn tại</string>
+    <string name="error_permission_make_dir">Không có quyền lưu trữ cho thư mục này</string>
+    <string name="permission_deny">Quyền bị từ chối</string>
+    <string name="title_show_touch_activity">Hiển thị chạm</string>
+
+    <string name="notsupport">Điện thoại của ban không hỗ trợ </string>
+</resources>

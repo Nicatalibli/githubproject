@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="size_bubble_icon">50dp</dimen>
+
+    <dimen name="navDrawer_header_height">170dp</dimen>
+
+    <dimen name="row_height">64.0dip</dimen>
+    <dimen name="screen_padding_10">10.0dip</dimen>
+    <dimen name="screen_padding_5">5.0dip</dimen>
+    <dimen name="screen_padding_2">2.0dip</dimen>
+    <dimen name="item_ic_padding">14.0dip</dimen>
+
+    <dimen name="text_sum_size">15sp</dimen>
+    <dimen name="text_details">12.5sp</dimen>
+
+    <!-- VIDEO TRIMMER-->
+    <dimen name="progress_video_line_height">2dp</dimen>
+    <dimen name="frames_video_height">40dip</dimen>
+
+    <dimen name="checkbox_padding">10.0dip</dimen>
+    <dimen name="checkbox_size">32.0dip</dimen>
+    <dimen name="height_image_popup">210dp</dimen>
+    <dimen name="height_item">210dp</dimen>
+
+
+    <dimen name="size_title_spash">22sp</dimen>
+    <dimen name="size_detail_spash">10sp</dimen>
+</resources>
